@@ -55,27 +55,33 @@ ReactDOM.render(<App />, document.getElementById("root"));
 
 ## Configure Your App To Build Your CSS
 
-```"scripts": {
+```
+"scripts": {
     "start": "npm run watch:css && react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css", 
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
-  },```
-
-
+  },
+  ```
+  
 ## Project setup
+
+### Install dependences
+
 ```
-npm install
+npm install or npm i
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm start
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
