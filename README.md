@@ -1,4 +1,4 @@
-# react js
+# React js Tailwindcss Setup Example
 
 Setting up Tailwind with reactjs is really simple, just install Tailwind:
 
