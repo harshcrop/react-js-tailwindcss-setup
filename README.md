@@ -49,11 +49,11 @@ Your *index.js* should look like this after the changes:
 import ReactDOM from "react-dom";
 import './assets/main.css';
 import App from "./App";
-ReactDOM.render(<App />, document.getElementById("root"));```
+ReactDOM.render(<App />, document.getElementById("root"));
+```
 
 
 ## Configure Your App To Build Your CSS
-
 
 ```"scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -62,8 +62,7 @@ ReactDOM.render(<App />, document.getElementById("root"));```
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css", 
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
-  },
-```
+  },```
 
 
 ## Project setup
