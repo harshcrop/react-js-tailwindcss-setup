@@ -3,7 +3,7 @@
 Setting up Tailwind with reactjs is really simple, just install Tailwind:
 
 ```sh
-npm install tailwindcss postcss-cli autoprefixer -D
+npm install tailwindcss postcss-cli postcss autoprefixer -D
 ```
 
 We need to initialize Tailwind CSS by creating the default configurations. Type the command below in your terminal:
